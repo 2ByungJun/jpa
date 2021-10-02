@@ -12,12 +12,7 @@ public class JpaStartMain {
         EntityTransaction tx = em.getTransaction(); //  3. 트랜잭션. JPA 의 모든 데이터 변경은 트랜잭션 안에서 실행되어야 한다.
         tx.begin(); // 3-1. 트랜잭션 시작
         try {
-            // JPA 코드 작성 부분
-            Member member = new Member();
-            member.setId(2L);
-            member.setName("HelloB");
-            em.persist(member);
-
+            // code ...
             tx.commit();   // 트랜잭션 정상시 커밋(반영)
         }catch (Exception e){
             tx.rollback(); // 트랜잭션 문제 발생시 롤백
