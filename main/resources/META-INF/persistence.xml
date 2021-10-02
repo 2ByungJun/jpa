@@ -9,13 +9,13 @@
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/> <!-- javax 로 시작하는 이유? 다른 JPA 라이브러리를 써도 바꿀 수 있다. 표준을 지킴. -->
             <property name="javax.persistence.jdbc.user" value="sa"/>
             <property name="javax.persistence.jdbc.password" value=""/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost/~/test"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost/~/jpashop"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/> <!-- hibernate 는? 전용 옵션, MySQLDialect, OracleDialect ... -->
             <!-- 옵션 -->
             <property name="hibernate.show_sql" value="true"/>   <!-- sql 쿼리를 보여줌 -->
             <property name="hibernate.format_sql" value="true"/> <!-- 쿼리를 가독성있게 포멧팅 -->
             <property name="hibernate.use_sql_comments" value="true"/> <!-- JPA 로 행동되었다고 주석을 달아줌 -->
-            <!--<property name="hibernate.hbm2ddl.auto" value="create" />-->
+            <property name="hibernate.hbm2ddl.auto" value="create" />
         </properties>
     </persistence-unit>
 </persistence>

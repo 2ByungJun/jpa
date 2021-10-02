@@ -1,14 +1,13 @@
-package jpa.start;
+package jpa.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-// @Table(name="USER") // USER 라는 테이블로 설정됨.
 public class Member {
 
     @Id
-    private Long id; // @Id 는 PK를 알려주는 것
+    private Long id;
     private String name;
 
     public Long getId() {

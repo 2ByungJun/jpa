@@ -1,6 +1,6 @@
 package jpa.crud;
 
-import jpa.start.Member;
+import jpa.entity.Member;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
