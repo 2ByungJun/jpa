@@ -1,5 +1,7 @@
 package hellojpa;
 
+import jpa.start.Member;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -12,13 +14,13 @@ public class JpaMain {
          */
         // persistence.xml 의  persistence-unit-name 을 작성
         EntityManagerFactory emf =  Persistence.createEntityManagerFactory("hello");
+        EntityManager em = emf.createEntityManager();
 
         /*
          * 2. 엔티티 매니저
          * 쓰레드 간에 공유 X ( 사용하고 버려야 한다. )
          */
         // 작업을 진행할 때 꼭 만들어주어야함
-        EntityManager em = emf.createEntityManager();
 
         /*
          * 3. 트랜잭션
