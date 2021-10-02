@@ -3,11 +3,11 @@
 
 ## TABLE 설계
 ---
-![TABLE.png](img.png)
+![TABLE.png](images/img.png)
 
 ## Entity 설계와 매핑
 ---
-![Entity.png](img_1.png)
+![Entity.png](images/img_1.png)
 
 ## CREATE Entity result
 ```shell
