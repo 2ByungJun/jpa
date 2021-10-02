@@ -1,6 +1,14 @@
 # JPAshop
 ---
 
+## TABLE 설계
+---
+![TABLE.png](img.png)
+
+## Entity 설계와 매핑
+---
+![Entity.png](img_1.png)
+
 ## CREATE Entity result
 ```shell
 Hibernate: 
