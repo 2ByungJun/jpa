@@ -1,6 +1,10 @@
 # JPA 
 ---
 
+본 레포지토리는 김영한의 스프링 부트와 JPA 실무 완전 정복 로드맵을 시청하며 작성되어지고 있습니다.
+
+링크 : https://www.inflearn.com/roadmaps/149
+
 ## StartCode
 
 ```java
